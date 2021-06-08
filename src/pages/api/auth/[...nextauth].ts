@@ -8,5 +8,12 @@ export default NextAuth({
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
       scope: 'read:user'
     })
-  ]
+  ],
+  callbacks: {
+    async signIn(user, account, profile) {
+      console.log(user)
+
+      return true
+    }
+  }
 })
