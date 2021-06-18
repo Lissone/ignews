@@ -17,7 +17,7 @@ export default function Home({ product }: HomeProps) {
   return (
     <>
       <Head>
-        <title>ig.news</title>
+        <title>Ignews</title>
       </Head>
 
       <main className={styles.contentContainer}>
