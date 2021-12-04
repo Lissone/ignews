@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Ignews" src="./public/images/logo.svg" width="350px">
+  <img alt="Ignews logo" src="./public/images/logo.svg" width="300px">
 </h1>
 
 <p align="center">
@@ -31,24 +31,27 @@
 
 ## Description
 
-A news blog with no backend. A JAM Stack application that uses paid subscription by users authenticated by github using stripe and prismic CMS to control publications. Developed as a challenge to deepen my knowledge of CMS and JAM Stack applications.
+A news blog with no backend. A JAM Stack application that uses paid subscription by users authenticated by github using stripe and prismic CMS to control publications. 
+
+Developed as a challenge to deepen my knowledge of CMS and JAM Stack applications.
 
 ## Requirements
 
-* [Yarn](https://yarnpkg.com/)
-* [Nodejs](https://nodejs.org/en/)
-* [StripeCli](https://stripe.com/docs/stripe-cli) (For local stripe testing)
+- [Nodejs](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/)
+- [Yarn](https://yarnpkg.com/)
+- [StripeCli](https://stripe.com/docs/stripe-cli) (For local stripe testing)
 
 ## Technologies
 
-* ReactJs
-* NextJs
-* Typescript
-* Sass
-* FaunaDB
-* Stripe
-* Prismic CMS
-* Next Auth
+- React
+- NextJs
+- Typescript
+- Sass
+- FaunaDB
+- Stripe
+- Prismic CMS
+- Next Auth
 
 ## Layout
 
@@ -57,19 +60,21 @@ You can view the project layout via this <a href="https://www.figma.com/file/ir9
 ## Usage
 
 You can clone it on your pc using the command:
+
 ```bash
 git clone https://github.com/Lissone/ignews.git
 cd ignews
 ```
 
 Install dependencies using:
+
 ```bash
 yarn
 #or
-npm run
+npm install
 ```
 
-Need to add environment variables in both projects:
+Need to add environment variables:
 
 ```bash
 # .\.env.local
@@ -93,18 +98,20 @@ PRISMIC_ENDPOINT=
 PRISMIC_ACCESS_TOKEN=
 ```
 
-Run application:
-```bash
-yarn dev
-#or
-npm run dev
-```
-
 Commands used to use stripe webhooks locally:
+
 ```bash
 ./stripe.exe login
 
 ./stripe.exe listen --forward-to localhost:3000/api/webhooks
+```
+
+Run application:
+
+```bash
+yarn dev
+#or
+npm run dev
 ```
 
 ## Demonstration
