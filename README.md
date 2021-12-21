@@ -52,6 +52,7 @@ Developed as a challenge to deepen my knowledge of CMS and JAM Stack application
 - Stripe
 - Prismic CMS
 - Next Auth
+- Jest
 
 ## Layout
 
