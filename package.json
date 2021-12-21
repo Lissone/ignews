@@ -1,6 +1,10 @@
 {
   "name": "ignews",
   "version": "0.1.0",
+  "repository": "https://github.com/Lissone/ignews.git",
+  "description": "React world news blog.",
+  "author": "Leonardo Dias Lissone Santomero <leonardo.lissonez@gmail.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
